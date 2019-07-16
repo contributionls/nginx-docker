@@ -32,7 +32,7 @@ services:
       - /var/run/docker.sock:/var/run/docker.sock:ro
     restart: always
     environment:
-      DEFAULT_EMAIL=mail@yourdomain.tld
+      DEFAULT_EMAIL: mail@yourdomain.tld
 
 volumes:
   conf:
